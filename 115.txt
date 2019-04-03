@@ -1,0 +1,12 @@
+slist =[ '영어','수학','과학',]
+
+
+list = []
+list.append("안녕")
+list.append(2)
+list.append(1)
+
+print(list)
+print(slist)
+print(slist[2])
+print(list[0])
