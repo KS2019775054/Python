@@ -1,0 +1,21 @@
+import random
+
+alist = []
+b = 0
+c = 0
+for i in range(5):
+  alist.append(random.randint(1,100))
+
+
+
+print(alist)
+
+for i in range(0,5):
+  for j in range(i+1,5):
+    if alist[i]>=alist[j]:
+      c = alist[i]
+      alist[i]=alist[j]
+      alist[j]=c
+  print(alist)
+
+
